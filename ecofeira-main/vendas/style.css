@@ -4,6 +4,11 @@
     box-sizing: border-box; /* Remove margens e preenchimentos padrão dos elementos */
 }
 
+img {
+    width: 300px; /* Define a largura */
+    height: 200px; /* Define a altura */
+    object-fit: cover; /* Ajusta o conteúdo da imagem */
+}
 body {
     font-family: Arial, sans-serif; /* Define a fonte usada no site */
     padding: 20px; /* Espaçamento ao redor do conteúdo */
